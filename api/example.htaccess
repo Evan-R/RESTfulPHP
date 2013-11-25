@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteBase /api/
+RewriteRule ^(.*) index.php [L,QSA]
+
